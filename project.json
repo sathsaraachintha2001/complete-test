@@ -1,12 +1,32 @@
 {
-  "userId": "u_ffbb39a16075e7cc",
-  "projectId": "Complete Testing",
+  "schemaVersion": 2,
   "name": "Complete Testing",
-  "board": {
-    "fqbn": "esp32:esp32:esp32s3"
+  "target": {
+    "framework": "arduino",
+    "board": "esp32:esp32:esp32s3",
+    "options": {
+      "CDCOnBoot": "cdc",
+      "CPUFreq": "240",
+      "DFUOnBoot": "default",
+      "DebugLevel": "none",
+      "EraseFlash": "none",
+      "EventsCore": "1",
+      "FlashMode": "qio",
+      "FlashSize": "16M",
+      "JTAGAdapter": "default",
+      "LoopCore": "1",
+      "MSCOnBoot": "default",
+      "PSRAM": "enabled",
+      "PartitionScheme": "huge_app",
+      "USBMode": "hwcdc",
+      "UploadMode": "default",
+      "UploadSpeed": "115200"
+    }
   },
-  "selections": null,
   "serial": null,
+  "build": {
+    "properties": []
+  },
   "createdAt": "2026-11-02T03:21:45.878Z",
-  "updatedAt": "2026-11-02T03:21:45.878Z"
+  "updatedAt": "2026-11-02T03:26:20.954Z"
 }
