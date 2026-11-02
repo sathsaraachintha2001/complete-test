@@ -57,6 +57,14 @@
         "subpath": "libraries/PCA9539-master",
         "scope": "shared",
         "format": "legacy"
+      },
+      {
+        "name": "RTClib",
+        "url": "https://github.com/NORVIControllers/NORVI-X-Version-02",
+        "commit": "89bd31031d55013365495e0e631f2c4dcf75003d",
+        "contentSha256": "f20e3eb7ee6b81b49d27901dd99b7676fd34da174f0aeb76929b48a8cad96518",
+        "subpath": "libraries/RTClib-master",
+        "scope": "shared"
       }
     ]
   }
