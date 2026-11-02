@@ -1,0 +1,12 @@
+{
+  "userId": "u_ffbb39a16075e7cc",
+  "projectId": "Complete Testing",
+  "name": "Complete Testing",
+  "board": {
+    "fqbn": "esp32:esp32:esp32s3"
+  },
+  "selections": null,
+  "serial": null,
+  "createdAt": "2026-11-02T03:21:45.878Z",
+  "updatedAt": "2026-11-02T03:21:45.878Z"
+}
