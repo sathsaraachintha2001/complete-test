@@ -2,8 +2,19 @@
   "version": 2,
   "enforcementLevel": "strict",
   "libraries": {
-    "manager": [],
-    "managerResolved": [],
+    "manager": [
+      {
+        "name": "WiFi",
+        "version": "1.2.7",
+        "scope": "shared"
+      }
+    ],
+    "managerResolved": [
+      {
+        "name": "WiFi",
+        "version": "1.2.7"
+      }
+    ],
     "git": [
       {
         "name": "LovyanGFX",
@@ -20,6 +31,32 @@
         "contentSha256": "03df3677094f6e990030ae8eee34a8ecd45e731b82aa4e646685506b6a9510e4",
         "subpath": "libraries/CST816S-main",
         "scope": "shared"
+      },
+      {
+        "name": "PCA9538",
+        "url": "https://github.com/NORVIControllers/NORVI-X-Version-02",
+        "commit": "89bd31031d55013365495e0e631f2c4dcf75003d",
+        "contentSha256": "15ca91217e30912270c6051c6bed7328bcf11a601d65f69f8c51f65b71fbf109",
+        "subpath": "libraries/PCA9538",
+        "scope": "shared",
+        "format": "legacy"
+      },
+      {
+        "name": "PCA9536D",
+        "url": "https://github.com/NORVIControllers/NORVI-X-Version-02",
+        "commit": "89bd31031d55013365495e0e631f2c4dcf75003d",
+        "contentSha256": "672b7f17b207be1b6584c6cc2397cc70c158df0d2aae5e0952a263deede5daac",
+        "subpath": "libraries/Arduino_PCA9536-main",
+        "scope": "shared"
+      },
+      {
+        "name": "PCA9539-master",
+        "url": "https://github.com/NORVIControllers/NORVI-X-Version-02",
+        "commit": "89bd31031d55013365495e0e631f2c4dcf75003d",
+        "contentSha256": "429508b88a0a147c6e1bff23433d5a2ef52551220656109432508a3e688cb243",
+        "subpath": "libraries/PCA9539-master",
+        "scope": "shared",
+        "format": "legacy"
       }
     ]
   }
